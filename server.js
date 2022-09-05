@@ -9,11 +9,11 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
-//**double-check this r */
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/nosql-challenge', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+// //**double-check this r */
+// mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/nosql-challenge', {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// });
 
 mongoose.set('debug', true);
 
