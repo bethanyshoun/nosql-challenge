@@ -1,3 +1,18 @@
+const router = require('express').Router();
+
+//import functionality and hook up with the routes
+const {
+    getAllUser,
+    getUserById,
+    createUser,
+    updateUser,
+    deleteUser
+} = require('../../controllers/user-controller')
+
+
+
+
+module.exports = router;
 // /api/users
 
 // GET all users

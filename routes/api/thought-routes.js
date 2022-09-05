@@ -1,4 +1,18 @@
-// /api/thoughts
+const router = require('express').Router();
+
+const {
+    getAllThought,
+    getThoughtById,
+    createThought,
+    updateThought,
+    deleteThought
+} = require('../../controllers/thought-controller');
+
+// route /api/thoughts
+
+
+module.exports = router;
+
 
 // GET to get all thoughts
 
