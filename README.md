@@ -38,7 +38,7 @@ npm start
 
 ## Walkthrough Video Link
 Tested in Insomnia
-[Click HERE to see the walkthough demonstration video!]()
+[Click HERE to see the walkthough demonstration video!](https://drive.google.com/file/d/1s76-MqsOxMtpIoQn_XkaToxtVyr-bvT7/view)
 
 ## More Information
 See my work at: 
