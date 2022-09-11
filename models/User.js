@@ -14,11 +14,7 @@ const UserSchema = new Schema({
         type: String,
         unique: true,
         required: true,
-        // validate: {
-        //     validator: validator.isEmail,
-        //     message: '{VALUE} is not a valid email',
-        //     isAsync: false
-        // }
+        match: [/.+@.+\..+/]
     },
     // Array of _id values referencing the Thought model
     thoughts: [

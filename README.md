@@ -1,25 +1,45 @@
-# NoSQL Challenge 18
+# NoSQL Challenge 18: Social Network API
+
+## Table of Contents
+-[Description](#project-description)
+-[Technology](#technology-used)
+-[Installation](#installation)
+-[Usage](#usage)
+-[Screenshot](#screenshot)
+-[Walkthrough-Video](#walkthrough-video-link)
+-[More-Information](#more-information)
 
 ## Project Description
+This project uses MongoDB to build and structure the API for a social network web application. Users are able to share their thoughts, react to friends' thoughts, and create a friend list. 
 
-### User Story
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
+## Technology Used
+This project was created with:
+-Javascript
+-Node.js
+-Express.js
+-MongoDB
+-Mongoose
 
-### Acceptance Criteria
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+## Installation
+To use the project, download it locally and install dependencies with:
 
+```
+npm install
+```
+
+## Usage
+After installing, run the program by typing the following in the command line:
+
+```
+npm start
+```
+## Screenshot
+![Screenshot](/screenshot.png)
 
 ## Walkthrough Video Link
+Tested in Insomnia
+[Click HERE to see the walkthough demonstration video!]()
 
-## Contact Information
+## More Information
 See my work at: 
+- [Github Profile](https://github.com/bethanyshoun)
