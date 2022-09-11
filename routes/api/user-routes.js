@@ -11,13 +11,9 @@ const {
     removeFriend,
 } = require('../../controllers/user-controller')
 
-
-
-
-module.exports = router;
 // /api/users
 
-// GET all users
+// GET all users and create new user
 router
     .route('/')
     .get(getAllUser)
