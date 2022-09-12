@@ -2,11 +2,17 @@
 
 ## Table of Contents
 -[Description](#project-description)
+
 -[Technology](#technology-used)
+
 -[Installation](#installation)
+
 -[Usage](#usage)
+
 -[Screenshot](#screenshot)
+
 -[Walkthrough-Video](#walkthrough-video-link)
+
 -[More-Information](#more-information)
 
 ## Project Description
@@ -38,7 +44,7 @@ npm start
 
 ## Walkthrough Video Link
 Tested in Insomnia
-[Click HERE to see the walkthough demonstration video!](https://drive.google.com/file/d/1s76-MqsOxMtpIoQn_XkaToxtVyr-bvT7/view)
+[Click HERE to see the walkthough demonstration video!](https://youtu.be/uBBu_-Vvk0c)
 
 ## More Information
 See my work at: 
